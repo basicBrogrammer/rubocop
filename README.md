@@ -43,15 +43,6 @@ If you'd rather install RuboCop using `bundler`, add a line for it in your `Gemf
 gem 'rubocop', require: false
 ```
 
-RuboCop's development is moving at a very rapid pace and there are
-often backward-incompatible changes between minor releases (since we
-haven't reached version 1.0 yet). To prevent an unwanted RuboCop update you
-might want to use a conservative version lock in your `Gemfile`:
-
-```rb
-gem 'rubocop', '~> 1.0.0', require: false
-```
-
 ## Quickstart
 
 Just type `rubocop` in a Ruby project's folder and watch the magic happen.
